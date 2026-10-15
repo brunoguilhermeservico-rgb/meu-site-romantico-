@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Você & Eu ❤️</title>
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #fff7f7;
+  color: #35232b;
+  text-align: center;
+}
+
+header {
+  background: #24151c;
+  color: white;
+  padding: 25px 12px;
+}
+
+header h1 { margin: 0; font-size: 32px; }
+
+.hero {
+  padding: 55px 18px;
+  background: linear-gradient(135deg, #4a172b, #d94b70);
+  color: white;
+}
+
+.hero h2 { font-size: 34px; }
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.coracao {
+  font-size: 60px;
+  animation: pulsar 1.2s infinite;
+}
+
+@keyframes pulsar {
+  50% { transform: scale(1.2); }
+}
+
+button {
+  background: #ff426b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 25px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#mensagem {
+  font-size: 21px;
+  color: white;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+main {
+  max-width: 750px;
+  margin: auto;
+  padding: 25px 16px;
+}
+
+.frase {
+  background: white;
+  margin: 20px 0;
+  padding: 22px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+.frase h3 {
+  color: #d63360;
+  font-size: 23px;
+}
+
+.frase p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.galeria { padding: 20px 0; }
+
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.fotos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+footer {
+  background: #24151c;
+  color: white;
+  padding: 25px 15px;
+}
+
+@media (max-width: 380px) {
+  .hero h2 { font-size: 28px; }
+  .fotos img { height: 145px; }
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Você & Eu ❤️</h1>
+  <p>Uma história escrita pelo coração</p>
+</header>
+
+<section class="hero">
+  <div class="coracao">❤️</div>
+  <h2>Você é o meu lugar favorito</h2>
+  <p>
+    Em meio a tantos caminhos, eu te escolhi.<br>
+    E todos os dias, escolho de novo.
+  </p>
+  <button onclick="mostrarAmor()">❤️ Eu te amo</button>
+  <div id="mensagem"></div>
+</section>
+
+<main>
+  <h2>💕 Frases para o meu amor 💕</h2>
+
+  <div class="frase">
+    <h3>Meu amor</h3>
+    <p>Você chegou e transformou meus dias comuns em momentos inesquecíveis.</p>
+  </div>
+
+  <div class="frase">
+    <h3>Para sempre</h3>
+    <p>Não quero apenas momentos ao seu lado. Quero uma vida inteira com você.</p>
+  </div>
+
+  <div class="frase">
+    <h3>Você é especial</h3>
+    <p>Se eu pudesse escolher novamente, escolheria você em todas as vidas.</p>
+  </div>
+
+  <div class="frase">
+    <h3>Nosso amor</h3>
+    <p>Mesmo nos dias difíceis, você continua sendo minha paz, meu sorriso e meu lar.</p>
+  </div>
+
+  <div class="frase">
+    <h3>Uma promessa ❤️</h3>
+    <p>Prometo cuidar do nosso amor, valorizar cada abraço e demonstrar o quanto você importa.</p>
+  </div>
+<footer>
+  <h2>Eu te amo, hoje e sempre! ❤️</h2>
+  <p>Que a nossa história nunca perca a magia.</p>
+  <p>Feito com amor ❤️</p>
+</footer>
+
+<script>
+function mostrarAmor() {
+  document.getElementById("mensagem").innerHTML =
+    "Você é meu presente favorito da vida! ❤️<br>" +
+    "Meu coração escolhe você todos os dias. 💕";
+}
+</script>
+</body>
+</html><h1>Meu site romantico ❤️</h1><p>Eu te amo!</p>
